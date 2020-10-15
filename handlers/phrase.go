@@ -1,9 +1,10 @@
 package handlers
 
-func PhraseGet() {
+import "net/http"
 
+func PhraseGet(http.ResponseWriter, *http.Request){
 }
 
-func PhrasePost() {
+func PhrasePost(http.ResponseWriter, *http.Request) {
 
 }

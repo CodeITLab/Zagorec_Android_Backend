@@ -1,0 +1,12 @@
+services:
+  db:
+    image: postgres:12
+    environment:
+      POSTGRES_USER: stef
+      POSTGRES_PASSWORD: most
+      POSTGRES_DB: bacva
+      PGDATA: /db
+    volumes:
+    - ./db/data:/db
+    - ./db/logs:/pg_logs
+    restart: always
