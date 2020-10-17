@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08234cb1-1c69-4d13-a8ff-74f3115a27ec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrator/migrator.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handlers/phrase.go" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/phrase.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,12 +32,13 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -85,13 +86,22 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="555" y="197" width="800" height="719" key="#Plugins/1920.0.1920.1080/3840.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1602536950416" />
+    <state x="263" y="406" width="1384" height="301" key="#SQL_Dialects" timestamp="1602925557740">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="263" y="406" width="1384" height="301" key="#SQL_Dialects/0.27.1920.1053@0.27.1920.1053" timestamp="1602925557740" />
+    <state x="555" y="215" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602926142131">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="555" y="215" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1602926142131" />
     <state x="646" y="355" width="643" height="417" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602536976887">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="646" y="355" width="643" height="417" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.1920.1080/3840.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1602536976887" />
-    <state x="623" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1602536961959">
+    <state x="623" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1602926572500">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
+    <state x="623" y="259" width="672" height="678" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1602926572500" />
     <state x="623" y="259" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1080/3840.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1602536961959" />
   </component>
 </project>

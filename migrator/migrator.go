@@ -1,0 +1,4 @@
+package migrator
+
+func RunMigrations() {
+}
